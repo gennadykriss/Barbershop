@@ -1,4 +1,4 @@
-import Logo from '../assets/logo.png'  // ← put your SVG/PNG in src/assets
+import Logo from '../assets/Logo.png'  // ← put your SVG/PNG in src/assets
 import { Link } from 'react-router-dom'
 
 export default function Navbar() {
