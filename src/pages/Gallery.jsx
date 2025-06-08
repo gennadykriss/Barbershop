@@ -27,7 +27,7 @@ export default function Gallery() {
               key={i}
               src={src}
               alt={`Haircut ${i + 1}`}
-              className="w-full h-auto object-cover rounded"
+              className="w-full h-[300px] md:h-[400px] object-cover rounded-lg"
             />
           ))}
         </div>
@@ -40,7 +40,7 @@ export default function Gallery() {
               key={i + 2}
               src={src}
               alt={`Haircut ${i + 3}`}
-              className="w-full h-auto object-cover rounded"
+              className="w-full h-[300px] md:h-[400px] object-cover rounded-lg"
             />
           ))}
         </div>
